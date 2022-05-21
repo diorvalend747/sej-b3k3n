@@ -72,11 +72,11 @@ export default function BookDetail() {
                                 </div>
                                 
                                 <div className="mt-8">
-                                    <h3 className="text-xl font-bold text-white">Tentang buku ini?</h3>
+                                    <h3 className="text-xl font-bold text-white">What's it about?</h3>
                                     <p className="text-base font-normal mt-3 text-white">{detail.description}</p>
                                 </div>
                                 <div className="mt-8">
-                                    <h3 className="text-xl font-bold text-white">Apa saja di dalamnya?</h3>
+                                    <h3 className="text-xl font-bold text-white">What's inside?</h3>
                                     <ul className="text-base font-normal mt-3 text-white">
                                         {detail ? detail.sections ? detail.sections.map((section, i) => (
                                             <li
